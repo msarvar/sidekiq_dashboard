@@ -11,6 +11,7 @@ Sidekiq.configure_client do |config|
 end
 
 require 'sidekiq/web'
+require 'sidekiq-statistic'
 
 map '/' do
   if ENV['USERNAME'] && ENV['PASSWORD']
