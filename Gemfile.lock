@@ -6,6 +6,14 @@ GIT
       sidekiq (>= 5.0)
       tilt (~> 2.0)
 
+GIT
+  remote: https://github.com/msarvar/sidekiq-benchmark.git
+  revision: 799e60a33e74e61a3cc4ba7acb9ab0fa6e7156aa
+  specs:
+    sidekiq-benchmark (0.6.0)
+      chartkick (>= 1.1.1)
+      sidekiq (~> 5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,9 +28,6 @@ GEM
       rack (>= 1.5.0)
       rack-protection (>= 1.5.0)
       redis (>= 3.3.5, < 5)
-    sidekiq-benchmark (0.6.0)
-      chartkick (>= 1.1.1)
-      sidekiq (~> 5)
     tilt (2.0.9)
 
 PLATFORMS
@@ -30,7 +35,7 @@ PLATFORMS
 
 DEPENDENCIES
   sidekiq
-  sidekiq-benchmark
+  sidekiq-benchmark!
   sidekiq-statistic!
   tilt
 
