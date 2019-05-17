@@ -12,6 +12,7 @@ end
 
 require 'sidekiq/web'
 require 'sidekiq-statistic'
+require 'sidekiq-benchmark'
 
 map '/' do
   if ENV['USERNAME'] && ENV['PASSWORD']

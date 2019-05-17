@@ -2,5 +2,6 @@
 source "https://rubygems.org"
 
 gem "sidekiq"
-gem "sidekiq-statistic"
+gem "sidekiq-benchmark"
+gem "sidekiq-statistic", git: 'https://github.com/davydovanton/sidekiq-statistic.git'
 gem "tilt"
